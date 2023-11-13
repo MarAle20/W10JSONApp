@@ -11,6 +11,8 @@
 		CE4BB0E62B02C9C000FD5296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4BB0E52B02C9C000FD5296 /* ContentView.swift */; };
 		CE4BB0E82B02C9C100FD5296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4BB0E72B02C9C100FD5296 /* Assets.xcassets */; };
 		CE4BB0EB2B02C9C100FD5296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4BB0EA2B02C9C100FD5296 /* Preview Assets.xcassets */; };
+		CE4BB0F22B02C9F600FD5296 /* ListDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4BB0F12B02C9F500FD5296 /* ListDataView.swift */; };
+		CE4BB0F42B02CA2300FD5296 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4BB0F32B02CA2300FD5296 /* GetData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		CE4BB0E52B02C9C000FD5296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE4BB0E72B02C9C100FD5296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4BB0EA2B02C9C100FD5296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE4BB0F12B02C9F500FD5296 /* ListDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataView.swift; sourceTree = "<group>"; };
+		CE4BB0F32B02CA2300FD5296 /* GetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
+		CE4BB0F52B02CF5E00FD5296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +56,13 @@
 		CE4BB0E22B02C9C000FD5296 /* W10JSONApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE4BB0F52B02CF5E00FD5296 /* Info.plist */,
 				CE4BB0E32B02C9C000FD5296 /* W10JSONAppApp.swift */,
 				CE4BB0E52B02C9C000FD5296 /* ContentView.swift */,
 				CE4BB0E72B02C9C100FD5296 /* Assets.xcassets */,
 				CE4BB0E92B02C9C100FD5296 /* Preview Content */,
+				CE4BB0F12B02C9F500FD5296 /* ListDataView.swift */,
+				CE4BB0F32B02CA2300FD5296 /* GetData.swift */,
 			);
 			path = W10JSONApp;
 			sourceTree = "<group>";
@@ -137,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4BB0F22B02C9F600FD5296 /* ListDataView.swift in Sources */,
 				CE4BB0E62B02C9C000FD5296 /* ContentView.swift in Sources */,
+				CE4BB0F42B02CA2300FD5296 /* GetData.swift in Sources */,
 				CE4BB0E42B02C9C000FD5296 /* W10JSONAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +279,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"W10JSONApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = W10JSONApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +308,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"W10JSONApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = W10JSONApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
